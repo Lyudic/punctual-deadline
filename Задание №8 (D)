@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     float x;
-    cout <<"Solve function.\n"
+    cout <<"Solve function.\n" \\Решить функцию...
          <<"Enter:" ;
     cin  >> x;  //В условии х = −2.34; Ответ:-1.76911 
 
