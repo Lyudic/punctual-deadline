@@ -9,8 +9,9 @@ int main(){
     cout<<"Enter three numbers:"<< endl;
     cin >> a >> b >> c;
 
-    float average = (a+b+c)/3;
-    float min = ((a+a)-(c+c)-(b+b+b));
+    float average = (a+b+c)/3;  //Среднее арифметическое 
+    float min = ((a+a)-(c+c)-(b+b+b)); // разность удвоенной суммы первого и третьего чисел и утроенного второго числа
+
     setprecision(2);
     
     cout<< "average ="<<average<<endl
